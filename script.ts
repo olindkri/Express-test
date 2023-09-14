@@ -11,15 +11,7 @@ async function main() {
           useremail: 'krilinol@gmail.com',
         },
       })
-      console.log(contact)
-
-    // const usersWithPosts = await prisma.user.findMany({
-    //   include: {
-    //     posts: true,
-    //   },
-    // })
-    // console.dir(usersWithPosts, { depth: null })
-  
+      console.log(contact)  
 }
 
 main()

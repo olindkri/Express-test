@@ -17,7 +17,7 @@ const limiter = rateLimit({
 var db = new sqlite3.Database("./prisma/dev.db");
 
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, "./public")));
+app.use(express.static(path.join(__dirname, "../SE-3")));
 app.use(helmet());
 app.use(limiter);
 
