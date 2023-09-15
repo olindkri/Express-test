@@ -13,6 +13,7 @@ Write the following commands in the terminal or command promt:
     $ npm init -y
     $ npm install .
 
+If you want to edit this project, you will need to install SQLite.
 
 Install SQLite:
 
