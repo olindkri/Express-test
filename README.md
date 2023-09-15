@@ -20,6 +20,10 @@ Install SQLite:
    - Create a new folder named (sqlite) at the root of your C: drive.
    - Export the data from the zip file to the new folder.
    - Open the sqlite3.exe file (you can close it after).
+   - Open the file explorer and (right-click) on "This PC" and select properties.
+   - Click on “Advanced System Settings” and then click on “Environment Variables”.
+   - Under “System Variables”, find the “Path” variable and click on “Edit”.
+   - Add the C:\sqlite directory to the list of paths separated by a semicolon.
 
   MacOS:
    - Open the terminal and run the command:
