@@ -1,21 +1,20 @@
-# SE-3
-Software Engineering (3)
+# Software Engineering (3)
 
-Made by:
+**Made by:**
  - Oliver Lind Kristiansen
  - Nontagan Phomin
  - Erik Evjen
  - Sakariya Adan Mahamud
 
-Before you can run the prototype, you need to do the following steps.
+**Before you can run the prototype, you need to do the following steps.**
 
 Write the following commands in the terminal or command promt:
-    $ npm init -y
-    $ npm install .
+   - `$ npm init -y`
+   - `$ npm install .`
 
 If you want to edit this project, you will need to install SQLite.
 
-Install SQLite:
+**Install SQLite (Optional)**
 
   Windows:
    - Download this .zip file: https://www.sqlite.org/2023/sqlite-tools-win32-x86-3430100.zip
@@ -29,11 +28,8 @@ Install SQLite:
 
   MacOS:
    - Open the terminal and run the command:
-       $ brew install sqlite
+       - `$ brew install sqlite`
 
   Linux:
    - Open a terminal and run the command:
-       $ sudo apt-get install sqlite3
-
-
-You can now run the prototype!
+       - `$ sudo apt-get install sqlite3`
