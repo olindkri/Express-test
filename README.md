@@ -9,7 +9,8 @@ Made by:
 
 Before you can run the prototype, you need to do the following steps.
 
-Write the following code in the terminal or command promt:
+Write the following commands in the terminal or command promt:
+    $ npm init -y
     $ npm install .
 
 
