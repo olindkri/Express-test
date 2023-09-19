@@ -6,15 +6,34 @@
  - Erik Evjen
  - Sakariya Adan Mahamud
 
-**Before you can run the prototype, you need to do the following steps.**
+## Testing
 
-Write the following commands in the terminal or command promt:
-   - `$ npm init -y`
-   - `$ npm install .`
+**Before you can run the prototype, you need to do the following steps:**
+
+Make sure you have Node.js installed. If not, download it from the link below:
+
+&nbsp;&nbsp;&nbsp;&nbsp;https://nodejs.org/en/download
+
+<br>
+
+Write the following commands in the terminal or powershell:
+> Make sure you are inside the /SE-3 directory.
+
+&nbsp;&nbsp;&nbsp;&nbsp;`$ npm init -y`
+
+&nbsp;&nbsp;&nbsp;&nbsp;`$ npm install .`
+
+<br>
+
+Now you can run the prototype by typing this command in the terminal:
+
+&nbsp;&nbsp;&nbsp;&nbsp;`$ node app.js`
+
+<br>
+
+## Editing
 
 If you want to edit this project, you will need to install SQLite.
-
-**Install SQLite (Optional)**
 
   Windows:
    - Download this .zip file: https://www.sqlite.org/2023/sqlite-tools-win32-x86-3430100.zip
@@ -28,8 +47,10 @@ If you want to edit this project, you will need to install SQLite.
 
   MacOS:
    - Open the terminal and run the command:
-       - `$ brew install sqlite`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ brew install sqlite`
 
   Linux:
    - Open a terminal and run the command:
-       - `$ sudo apt-get install sqlite3`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ sudo apt-get install sqlite3`
