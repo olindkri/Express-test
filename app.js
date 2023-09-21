@@ -30,15 +30,11 @@ app.get("/", function (req, res) {
 // Insert
 app.post("/add", function (req, res) {
   db.serialize(() => {
-    db.run(
-      "INSERT INTO emp(name) VALUES(?)",
-      [req.body.name],
-      function (err) {
-        if (err) {
-          return console.log(err.message);
-        }
+    db.run("INSERT INTO emp(name) VALUES(?)", [req.body.name], function (err) {
+      if (err) {
+        return console.log(err.message);
       }
-    );
+    });
   });
 });
 
@@ -54,7 +50,11 @@ app.post("/view", function (req, res) {
           res.send("Error encountered while displaying");
           return console.error(err.message);
         }
-        res.send(` ID: ${row.ID},    Name: ${row.NAME}`);
+        res.send(`
+            <ul style="font-size: 20px;">
+              <li>ID: ${row.ID}</li>
+              <li>Name: ${row.NAME}</li>
+          </ul>`);
         console.log("Entry displayed successfully");
       }
     );
@@ -100,6 +100,6 @@ app.get("/close", function (req, res) {
   });
 });
 
-
-server.listen(3000,function(){ 
-    console.log("Server listening on port: 3000")});
+server.listen(3000, function () {
+  console.log("Server listening on port: 3000");
+});
