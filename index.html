@@ -11,7 +11,6 @@
     <!-- <meta name="theme-color" content="#e8a24d"> -->
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <script type="text/javascript" src="script.js"></script>
 
@@ -20,11 +19,11 @@
 
 <body>
     <header>
-        <h1>Employee Database</h1>
+        <h1>User Database</h1>
     </header>
     <form id="insert" action="/add" method="POST">
         <fieldset>
-            <h3>Add new employee</h3>
+            <h3>Add new user</h3>
             <label>Name</label>
             <input type="text" id="name" name="name" required>
             <br><br>
@@ -36,8 +35,8 @@
 
     <form action="/view" method="POST">
         <fieldset>
-            <h3>View an employee</h3>
-            <label>Employee ID</label>
+            <h3>View user</h3>
+            <label>User ID</label>
             <input type="text" id="empID" name="id" required>
             <br><br>
             <button type="reset">Reset</button>
@@ -48,8 +47,8 @@
 
     <form action="/update" method="POST">
         <fieldset>
-            <h3>Update an employee</h3>
-            <label>Employee ID</label>
+            <h3>Update user</h3>
+            <label>User ID</label>
             <input type="text" id='empID' name="id" required>
             <br><br>
             <label>New Name</label>
@@ -62,8 +61,8 @@
 
     <form action="/delete" method="POST">
         <fieldset>
-            <h3>Delete an employee</h3>
-            <label>Employee ID</label>
+            <h3>Delete user</h3>
+            <label>User ID</label>
             <input type="text" id='empID' name="id" required>
             <br><br>
             <button type="reset">Reset</button>
@@ -74,8 +73,8 @@
 
     <footer>
         <hr>
-        <h4>Please enter 'http://localhost:3000/close' to close the database connection before closing this window</h4>
-    </footer>
+        <!-- Please enter 'http://localhost:3000/close' to close the database connection before closing this window -->
+    </footer> 
 
 </body>
 
